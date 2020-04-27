@@ -3,11 +3,13 @@ Type: Package
 Title: Converts ISCO-88 Codes to EGP, ISEI, or SIOPS codes
 Version: 0.1.0
 Depends: R (>= 3.1.2)
-Imports: hash (>= 2.2.6)
+Imports: 
+    hash (>= 2.2.6),
+    data.table
 Suggests: testthat
 Author: Philip Parker
 Maintainer: Philip Parker <philip.parker@acu.edu.au>
 Description: The package aims to provide a quick and accurate translation of ISCO 88 codes into the most common social class and SES (occupational prestige) codes. The speed comes from calling a hash table in which ISCO and output code are in a "key:value" pair.
-License: MIT
+License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 7.1.0
